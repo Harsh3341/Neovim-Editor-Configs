@@ -159,4 +159,8 @@ return {
       require("telescope").load_extension("file_browser")
     end,
   },
+  {
+    enabled = false,
+    "folke/flash.nvim",
+  },
 }
